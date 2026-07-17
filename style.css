@@ -190,8 +190,128 @@ html,body{
 #page2{
     height: 87%;
     width: 100%;
-    background-color: blueviolet;
 
+}
+
+.products{
+    width:90%;
+    margin:70px auto;
+
+    display:flex;
+    align-items: center;
+    gap:25px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.product-card{
+    margin-top: 10%;
+    width:300px;
+    background:white;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.card-banner{
+    height:140px;
+    position:relative;
+}
+
+.banner1{
+    background:linear-gradient(
+    135deg,
+    #dff3ff,
+    #b3e4ff
+    );
+}
+
+.banner2{
+    background:linear-gradient(
+    135deg,
+    #dffff6,
+    #a6f1df
+    );
+}
+
+.banner3{
+    background:linear-gradient(
+    135deg,
+    #ffe8f0,
+    #ffcfe0
+    );
+}
+
+.banner4{
+    background:linear-gradient(
+    135deg,
+    #fff0df,
+    #ffd8b4
+    );
+}
+
+.icon-box{
+    width:90px;
+    height:90px;
+
+    background:white;
+    border-radius:50%;
+
+    position:absolute;
+    left:30px;
+    bottom:-40px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:35px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+.content{
+    padding:60px 25px 30px;
+}
+
+.content h3{
+    color:#032d60;
+    margin-bottom:15px;
+}
+
+.content p{
+    color:#555;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.content a{
+    color:#032d60;
+    font-weight:700;
+}
+
+.btn-wrap{
+    text-align:center;
+    margin-bottom:80px;
+}
+
+.view-btn{
+    padding:15px 35px;
+
+    background:white;
+    color:#0176d3;
+
+    border:2px solid #0176d3;
+
+    border-radius:6px;
+
+    cursor:pointer;
+    font-size:16px;
+    font-weight:600;
+}
+footer img{
+    width: 90%;
+    object-fit: cover;
 }
 #fakeheader{
     height: 13%;
